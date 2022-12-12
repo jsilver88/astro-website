@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro'
+import logos from '../images/deploy-logos.png'
+import logosSmall from '../images/deploy-logos-small.png'
+import Card from '../components/Card.astro'
+---
+
+<Layout title='About Astro'>
+  <section class='page-content'>
+    <div class='container'>
+      <h2>About Astro</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+        velit nisi hic voluptatum corrupti ducimus deserunt natus amet harum
+        autem aperiam qui asperiores, illo perferendis assumenda, iure quibusdam
+        fuga repudiandae.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+        quos fugiat! Blanditiis laudantium quam nisi est possimus ratione
+        distinctio reiciendis?
+      </p>
+
+      <Card dark={true}>
+        <h3>Use the tools you already love</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+          atque? Impedit molestiae nemo, dolorem quo voluptatum, voluptates
+          praesentium minima nobis quaerat error perspiciatis doloremque ipsa!
+          Saepe eos deserunt voluptate? Reprehenderit odit nostrum eum dolorum
+          neque commodi ipsa omnis? Minima, nemo.
+        </p>
+      </Card>
+
+      <h3>Deploy to anywhere, even the edge</h3>
+      <img src={logos} alt='' class='logos' />
+      <img src={logosSmall} alt='' class='logos-small' />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusamus
+        aut eveniet. Obcaecati, perferendis ab optio totam esse accusamus
+        sapiente.
+      </p>
+    </div>
+  </section>
+</Layout>
